@@ -1,4 +1,4 @@
-// --------------Storage section--------------\\
+// --------------Memory section--------------\\
 document
   .getElementById("memory-card-sixteenGB")
   .addEventListener("click", function () {
