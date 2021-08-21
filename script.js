@@ -80,5 +80,7 @@ document.getElementById("coupon-button").addEventListener("click", function () {
     let withDiscount = (withoutDiscount / 100) * 20;
     withDiscount = withoutDiscount - withDiscount;
     discountPrice.innerText = withDiscount;
+  }else{
+   finalPrice();
   }
 });
